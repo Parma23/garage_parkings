@@ -1,0 +1,66 @@
+ ### Parking garage
+
+ class Parking:
+    def__ init__(self, License_number):
+    self.License_number = licensenumber
+
+ class parking_lot: 
+     def__init__(self, row, spotnumber, level, car):
+     self.row = Row 
+     self.sportnumber = sportnumber
+     self.level = level
+     self.car = Car 
+
+ def isAvailable(self):
+     return self.car == none
+
+
+def park(self, vehicle):
+     self.car == vehicle
+
+
+def removevehicle(self):
+     self.car = None
+
+
+class level:
+    def__init__(self, rows, levelnumber):
+    self.levelnumber = levelnumber
+    self.rows = rows
+    self.spotsperrow = 2
+    self.parkinglots =[]
+    self.availablesports = row * self.spotsperrow
+
+ def findavailablesport(self):
+     if(self.availablespots <= 0):
+          return None
+     else
+          if(len(self.parkingspots) ==0):
+               return parkinglot (0, 0 ,0, None)    
+          else 
+            lastcarparked = self.parkingspot[-1]
+
+       if(lastcarparked.spotnumber<self.spotperrow):
+          return parkinglot(lastcarparked.row, lastcarparked.spotnumber+1,self.levelnumber, None)    
+     if(lastcarparked.row<self.row):
+          return parkinglot(lastcarparked.row+1, 0, self.levelnumber, None)
+     
+     def park(self, vehicle):
+          freeparkingspot = self.findavailablespot()
+          if(not(freeparkingsopt)):
+               return False
+          else
+               freeparkingspot.park(vehicle)
+
+     
+
+
+
+
+
+
+
+
+
+
+
